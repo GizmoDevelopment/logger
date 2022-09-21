@@ -7,14 +7,17 @@ import type { LogType } from "@utils/enums";
 
 export function timestamp (): string {
 
-	const timestamp = new Date().toLocaleDateString("sv", {
-		hour: "numeric",
-		minute: "numeric",
-		second: "numeric",
-		hour12: false
-	});
+	const
+		date = new Date(),
+		timestamp = date.toLocaleDateString("sv", {
+			hour: "numeric",
+			minute: "numeric",
+			second: "numeric",
+			hour12: false
+		}),
+		timezoneOffset = date.toString().match(/\w{1,3}([+-]\d{4})/)?.[1] || "";
 
-	return `${Color.BrightBlack}[${timestamp}]${Color.None}`;
+	return `${Color.BrightBlack}[${timestamp} UTC${timezoneOffset}]${Color.None}`;
 }
 
 export function logTypeMarker (type: LogType, color: Color): string {
