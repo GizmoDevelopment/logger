@@ -14,6 +14,8 @@ logger.error(new Error("This is an error object"));
 console.log("\n");
 
 // Arrays
+logger.info("This is an 'array'", [ 1, 2, 3 ]);
+
 logger.info("this 1 is 2 a 3 number 4".split(" "));
 logger.success("this 1 is 2 a 3 number 4".split(" "));
 logger.warn("this 1 is 2 a 3 number 4".split(" "));
