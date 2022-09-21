@@ -31,3 +31,10 @@ export function warn (...content: unknown[]): void {
 export function error (...content: unknown[]): void {
 	log(LogType.Error, content);
 }
+
+export default {
+	info,
+	success,
+	warn,
+	error
+};
