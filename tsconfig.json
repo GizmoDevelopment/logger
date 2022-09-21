@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"target": "ES2019",
+		"moduleResolution": "Node",
+		"module": "CommonJS",
+		"outDir": "./lib",
+		"baseUrl": "./src",
+		"strict": true,
+		"declaration": true,
+		"sourceMap": true,
+		"paths": {
+			"@/*": ["./*"],
+			"@utils/*": ["./utils/*"]
+		},
+		"plugins": [
+			{ "transform": "typescript-transform-paths" },
+			{ "transform": "typescript-transform-paths", "afterDeclarations": true }
+		]
+	},
+	"include": [
+		"./src/**/*"
+	]
+}

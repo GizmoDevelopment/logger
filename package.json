@@ -1,0 +1,38 @@
+{
+  "name": "@gizmo-dev/logger",
+  "description": "A minimal logger with beautiful colors.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GizmoDevelopment/logger"
+  },
+  "bugs": {
+    "url": "https://github.com/GizmoDevelopment/logger/issues"
+  },
+  "homepage": "https://github.com/GizmoDevelopment/logger/#readme",
+  "engines": {
+	"node": ">=14.x"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "./lib/index.js",
+  "typings": "./lib/index.d.ts",
+  "scripts": {
+    "prepare": "ts-patch install -s",
+	"lint": "eslint --ext .ts,.js ./src",
+	"build": "rm -rf ./lib && tsc"
+  }, 
+  "devDependencies": {
+    "@gizmo-dev/eslint-plugin": "^3.3.1",
+    "@types/node": "^14.18.26",
+    "eslint": "^8.23.0",
+    "ts-patch": "^2.0.2",
+    "typescript": "^4.8.2",
+    "typescript-transform-paths": "^3.3.1"
+  }
+}
