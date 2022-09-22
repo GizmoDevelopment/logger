@@ -14,7 +14,7 @@ export function formatContent (content: unknown, color: Color): unknown {
 		case "object":
 
 			if (content instanceof Error) {
-				content.stack = content.stack?.replace(/Error: (.+)/, `${color}$1${Color.None}`);
+				content.stack = content.stack?.replace(/^(\w+)?Error: (.+)/, `${color}$2${Color.None}`);
 				content.stack += "\n";
 			}
 			
