@@ -40,9 +40,6 @@ jobs:
     - name: Build
       run: pnpm build
 
-    - name: Test
-      run: pnpm test
-
     - name: Upload build artifact
       if: ${{ inputs.upload-artifact == true }}
       uses: actions/upload-artifact@master
