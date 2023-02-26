@@ -1,7 +1,12 @@
 name: Build & Test
 
 on:
-  workflow_call
+  workflow_call:
+    inputs:
+      upload-artifact:
+        required: false
+        type: boolean
+        default: false
 
 jobs:
   build:
@@ -34,3 +39,16 @@ jobs:
 
     - name: Build
       run: pnpm build
+
+    - name: Test
+      run: pnpm test
+
+    - name: Upload build artifact
+      if: ${{ inputs.upload-artifact == true }}
+      uses: actions/upload-artifact@master
+      with:
+        name: gizmo-logger
+        path: |
+          .
+          !node_modules/
+        if-no-files-found: error
