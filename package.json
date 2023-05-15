@@ -20,7 +20,7 @@
   "main": "./lib/index.js",
   "typings": "./lib/index.d.ts",
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   },
   "packageManager": "pnpm@8.5.1",
   "scripts": {
@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@gizmo-dev/eslint-plugin": "^3.3.4",
-    "@types/node": "^16.18.23",
+    "@types/node": "^18.16.9",
     "eslint": "^8.40.0",
     "tsc-alias": "^1.8.6",
     "typescript": "^5.0.4"

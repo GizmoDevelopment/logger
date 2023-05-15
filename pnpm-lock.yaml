@@ -5,8 +5,8 @@ devDependencies:
     specifier: ^3.3.4
     version: 3.3.4(eslint@8.40.0)(typescript@5.0.4)
   '@types/node':
-    specifier: ^16.18.23
-    version: 16.18.23
+    specifier: ^18.16.9
+    version: 18.16.9
   eslint:
     specifier: ^8.40.0
     version: 8.40.0
@@ -117,8 +117,8 @@ packages:
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}
     dev: true
 
-  /@types/node@16.18.23:
-    resolution: {integrity: sha512-XAMpaw1s1+6zM+jn2tmw8MyaRDIJfXxqmIQIS0HfoGYPuf7dUWeiUKopwq13KFX9lEp1+THGtlaaYx39Nxr58g==}
+  /@types/node@18.16.9:
+    resolution: {integrity: sha512-IeB32oIV4oGArLrd7znD2rkHQ6EDCM+2Sr76dJnrHwv9OHBTTM6nuDLK9bmikXzPa0ZlWMWtRGo/Uw4mrzQedA==}
     dev: true
 
   /@types/semver@7.5.0:
