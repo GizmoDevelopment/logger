@@ -4,18 +4,14 @@
 		"moduleResolution": "Node",
 		"module": "CommonJS",
 		"outDir": "./lib",
-		"baseUrl": "./src",
 		"strict": true,
 		"declaration": true,
 		"sourceMap": true,
+		"baseUrl": ".",
 		"paths": {
-			"@/*": ["./*"],
-			"@utils/*": ["./utils/*"]
-		},
-		"plugins": [
-			{ "transform": "typescript-transform-paths" },
-			{ "transform": "typescript-transform-paths", "afterDeclarations": true }
-		]
+			"@/*": ["./src/*"],
+			"@utils/*": ["./src/utils/*"]
+		}
 	},
 	"include": [
 		"./src/**/*"
