@@ -29,11 +29,11 @@
     "build": "rm -rf ./lib && tsc"
   },
   "devDependencies": {
-    "@gizmo-dev/eslint-plugin": "^3.3.3",
+    "@gizmo-dev/eslint-plugin": "^3.3.4",
     "@types/node": "^16.18.23",
-    "eslint": "^8.39.0",
+    "eslint": "^8.40.0",
     "ts-patch": "^2.1.0",
-    "typescript": "^4.9.5",
+    "typescript": "^5.0.4",
     "typescript-transform-paths": "^3.4.6"
   }
 }
