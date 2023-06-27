@@ -1,7 +1,7 @@
 {
   "name": "@gizmo-dev/logger",
   "description": "A minimal logger with beautiful colors.",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
