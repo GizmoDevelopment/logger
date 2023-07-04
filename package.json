@@ -31,7 +31,7 @@
     "@gizmo-dev/eslint-plugin": "^3.3.5",
     "@types/node": "^18.16.19",
     "eslint": "^8.44.0",
-    "tsc-alias": "^1.8.6",
+    "tsc-alias": "^1.8.7",
     "typescript": "^5.1.6"
   }
 }
