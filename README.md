@@ -10,3 +10,6 @@ logger.error(new Error("This is an error object"));
 
 logger.info("This is an array", [ 1, 2, 3 ]);
 ```
+
+Example output:
+<img width="706" alt="Example output screenshot" src="https://github.com/GizmoDevelopment/logger/assets/25076630/64571459-223b-4ddc-a766-f1dd92cb8e33">
