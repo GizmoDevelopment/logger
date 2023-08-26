@@ -12,7 +12,6 @@ function log (type: LogType, content: unknown[]): void {
 		prefix = `${timestamp()} ${logTypeMarker(type, color)}`,
 		formattedContent = content.map(c => formatContent(c, color));
 
-	// process.stdout.write(`${prefix} ${serializedContent.join(" ")}\n`);
 	console.log(prefix, ...formattedContent);
 }
 
