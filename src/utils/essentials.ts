@@ -7,10 +7,7 @@ export function formatContent (content: unknown, color: Color): unknown {
 	switch (typeof content) {
 		case "string":
 		case "number":
-			
 			return highlight(`${content}`, color);
-		
-			break;
 		case "object":
 
 			if (content instanceof Error) {
@@ -19,8 +16,6 @@ export function formatContent (content: unknown, color: Color): unknown {
 			}
 			
 			return content;
-
-			break;
 		default:
 			return content;
 	}
