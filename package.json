@@ -20,7 +20,7 @@
   "main": "./lib/index.js",
   "typings": "./lib/index.d.ts",
   "engines": {
-    "node": ">=18.19.0"
+    "node": ">=18.19.1"
   },
   "packageManager": "pnpm@8.15.2",
   "scripts": {
