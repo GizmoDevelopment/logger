@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@gizmo-dev/eslint-plugin": "^3.3.8",
-    "@types/node": "^18.19.26",
+    "@types/node": "^18.19.28",
     "eslint": "^8.57.0",
     "tsc-alias": "^1.8.8",
     "typescript": "^5.4.3"
