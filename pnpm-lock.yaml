@@ -12,8 +12,8 @@ importers:
         specifier: ^3.3.8
         version: 3.3.8(eslint@8.57.0)(typescript@5.5.3)
       '@types/node':
-        specifier: ^18.19.40
-        version: 18.19.40
+        specifier: ^18.19.41
+        version: 18.19.41
       eslint:
         specifier: ^8.57.0
         version: 8.57.0
@@ -78,8 +78,8 @@ packages:
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
 
-  '@types/node@18.19.40':
-    resolution: {integrity: sha512-MIxieZHrm4Ee8XArBIc+Or9HINt2StOmCbgRcXGSJl8q14svRvkZPe7LJq9HKtTI1SK3wU8b91TjntUm7T69Pg==}
+  '@types/node@18.19.41':
+    resolution: {integrity: sha512-LX84pRJ+evD2e2nrgYCHObGWkiQJ1mL+meAgbvnwk/US6vmMY7S2ygBTGV2Jw91s9vUsLSXeDEkUHZIJGLrhsg==}
 
   '@types/semver@7.5.8':
     resolution: {integrity: sha512-I8EUhyrgfLrcTkzV3TSsGyl1tSuPrEDzr0yd5m90UgNxQkyDXULk3b6MlQqTCpZpNtWe1K0hzclnZkTcLBe2UQ==}
@@ -707,7 +707,7 @@ snapshots:
 
   '@types/json-schema@7.0.15': {}
 
-  '@types/node@18.19.40':
+  '@types/node@18.19.41':
     dependencies:
       undici-types: 5.26.5
 
