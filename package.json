@@ -28,7 +28,7 @@
     "build": "tsc && tsc-alias"
   },
   "devDependencies": {
-    "@gizmo-dev/eslint-plugin": "^3.3.8",
+    "@gizmo-dev/eslint-plugin": "^5.0.1",
     "@types/node": "^20",
     "eslint": "^8.57.0",
     "tsc-alias": "^1.8.10",
