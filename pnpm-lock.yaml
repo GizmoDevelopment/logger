@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@gizmo-dev/eslint-plugin':
-        specifier: ^5.0.1
-        version: 5.0.1(eslint@9.9.1)(typescript@5.5.4)
+        specifier: ^5.0.2
+        version: 5.0.2(eslint@9.9.1)(typescript@5.5.4)
       '@types/node':
         specifier: ^20
         version: 20.16.1
@@ -55,8 +55,8 @@ packages:
     resolution: {integrity: sha512-BsWiH1yFGjXXS2yvrf5LyuoSIIbPrGUWob917o+BTKuZ7qJdxX8aJLRxs1fS9n6r7vESrq1OUqb68dANcFXuQQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@gizmo-dev/eslint-plugin@5.0.1':
-    resolution: {integrity: sha512-7h+doxUXUebmNhCVeU2UriZ8wyewPKaTlVfBWCl9TmWGZCZmi5twd6IltajdEBoRhnsR1oqlNgJkQWjOTcBd9Q==}
+  '@gizmo-dev/eslint-plugin@5.0.2':
+    resolution: {integrity: sha512-wuvoytg8qgf059/stRePD+m4xCrZ4YXyE3OCuJqbkjcPeC+yWlFIfEMFt1dcCZGXzVbGK8+keFVk4oFgTzkdEw==}
     engines: {node: '>=20'}
     peerDependencies:
       eslint: 9.x
@@ -719,7 +719,7 @@ snapshots:
 
   '@eslint/object-schema@2.1.4': {}
 
-  '@gizmo-dev/eslint-plugin@5.0.1(eslint@9.9.1)(typescript@5.5.4)':
+  '@gizmo-dev/eslint-plugin@5.0.2(eslint@9.9.1)(typescript@5.5.4)':
     dependencies:
       '@stylistic/eslint-plugin': 2.6.4(eslint@9.9.1)(typescript@5.5.4)
       eslint: 9.9.1
